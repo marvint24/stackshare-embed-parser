@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2022", //älteste unterstützte Version "es5","es6","es2018","es2020","es2022"
+    /* Modules */
+    "module": "nodenext", //  CommonJS oder nodenext
+    "moduleResolution": "nodenext", //nodenext oder node
+    "sourceMap": true,
+    "outDir": "./out",
+    "declaration": true,
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    // Custom paths
+    "baseUrl": "./src"
+    // "paths": {
+    //   "@components": ["src/components/*"]
+    // }
+  },
+  "ts-node": {
+    "esm": true
+  }
+}
