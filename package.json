@@ -2,6 +2,8 @@
   "name": "empty-ts-project",
   "version": "1.0.0",
   "description": "",
+  "main": "out/main.js",
+  "types": "out/main.d.ts",
   "scripts": {
     "tsc": "tsc",
     "start": "tsc && node ./out/main.js"
@@ -9,7 +11,8 @@
   "author": "MT",
   "devDependencies": {
     "@types/jsdom": "^21.1.1",
-    "@types/node": "^18.16.0"
+    "@types/node": "^18.16.0",
+    "typescript": "^5.0.4"
   },
   "type": "module",
   "dependencies": {
